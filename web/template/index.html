@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>服务器管理面板</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>服务器列表</h2>
+            <div id="serverList"></div>
+            <button onclick="addServer()">添加服务器</button>
+        </div>
+        <div class="main-content">
+            <h2>性能监控</h2>
+            <canvas id="statsChart"></canvas>
+            <div id="serverDetails"></div>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html> 

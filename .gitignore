@@ -1,0 +1,20 @@
+# 编译输出
+/bin
+/pkg
+
+# 依赖
+/vendor
+
+# IDE文件
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 配置文件
+config.local.yaml 
